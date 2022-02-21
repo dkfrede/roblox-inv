@@ -4,6 +4,19 @@ Hi, this is a custom roblox inventory. A free package, easy to use.
 Since, im not a professionel making Roblox scripts, or games, there is problems in it.
 If you find a problem, please contact me.
 
+Since i want this to be as frendly as possible to new developers - the system do have a automatic setup, this can be found inside ServerScriptService > Inventory > Setup
+This does, that you do not need to place files inside ReplicatedStorage - the script does it for you.
+So all the config is located inside ServerStorage. You cannot rename any of the Inventory folders inside ServerStorage.
+Then the setup system will break.
+
+Setting up project:
+- Open the .rblx file that you can download here - done!
+If you already have a place you want the inventory to be, follow this:
+- Copy the folder Inventory located inside ServerStorage - paste it in your project
+- Copy the folder Inventory located inside ServerScriptService - paste it in your project
+- Copy the 3 files located inside StarterGui(GuiUpdater,Buy,Inventory) - paste it in your project
+- Done!
+
 Creating items: 
 - Go into your ServerStorage
 - Now go into Inventory folder
