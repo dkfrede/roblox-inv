@@ -63,5 +63,5 @@ Module.ClearAllInventoryItems(player)
 
 # Have Inventory Item
 ```lua
-Module.ClearAllInventoryItems(player,item,amount)
+Module.HaveInventoryItem(player,item,amount)
 ```
