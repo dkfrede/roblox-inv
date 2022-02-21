@@ -4,7 +4,7 @@ Hi, this is a custom roblox inventory. A free package, easy to use.
 Since, im not a professionel making Roblox scripts, or games, there is problems in it.
 If you find a problem, please contact me.
 
-- Since i want this to be as frendly as possible to new developers - the system do have a automatic setup, this can be found inside ServerScriptService > Inventory > Setup
+- Since i want this to be as frendly as possible to new developers - the system do have a automatic setup, this can be found inside `ServerScriptService > Inventory > Setup`
 - This does, that you do not need to place files inside ReplicatedStorage - the script does it for you.
 - So all the config is located inside ServerStorage. You cannot rename any of the Inventory folders inside ServerStorage.
 - Then the setup system will break.
