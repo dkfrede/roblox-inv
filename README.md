@@ -16,14 +16,14 @@ Creating items:
 - Done!
 
 Making Categories:
-> Go into StarterGui
-> Go into Inventory
-> Open the Frame
-> Open the "Kates" folder
-> Make a new button, or copy the already existing ones.
-> Change the position, to where you want your categori button to be
-> Change the name to the name of the Categori you want.
-> Done!
+- Go into StarterGui
+- Go into Inventory
+- Open the Frame
+- Open the "Kates" folder
+- Make a new button, or copy the already existing ones.
+- Change the position, to where you want your categori button to be
+- Change the name to the name of the Categori you want.
+- Done!
 
 ## Usage (API)
 
