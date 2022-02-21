@@ -4,6 +4,27 @@ Hi, this is a custom roblox inventory. A free package, easy to use.
 Since, im not a professionel making Roblox scripts, or games, there is problems in it.
 If you find a problem, please contact me.
 
+Creating items: 
+> Go into your ServerStorage
+> Now go into Inventory folder
+> Open Items folder 
+> Copy and paste a already existing item folder
+> Open the new copied item folder
+> Insert a price under the Price IntValue
+> Insert the item's categori
+> Insert a icon texture, under the Icon decal.
+> Done!
+
+Making Categories:
+> Go into StarterGui
+> Go into Inventory
+> Open the Frame
+> Open the "Kates" folder
+> Make a new button, or copy the already existing ones.
+> Change the position, to where you want your categori button to be
+> Change the name to the name of the Categori you want.
+> Done!
+
 ## Usage (API)
 
 Start by location our Module Script.
