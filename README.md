@@ -19,18 +19,15 @@ Module.AddInventory(player,item,amount,price)
 
 # Remove Inventory Item
 ```lua
-local Module = require(game:GetService("ServerScriptService").Inventory.Module)
 Module.RemoveInventory(player,item,amount)
 ```
 
 # Clear Player Inventory
 ```lua
-local Module = require(game:GetService("ServerScriptService").Inventory.Module)
 Module.ClearAllInventoryItems(player)
 ```
 
 # Have Inventory Item
 ```lua
-local Module = require(game:GetService("ServerScriptService").Inventory.Module)
 Module.ClearAllInventoryItems(player,item,amount)
 ```
