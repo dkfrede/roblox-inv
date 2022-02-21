@@ -9,7 +9,7 @@ If you find a problem, please contact me.
 - So all the config is located inside ServerStorage. You cannot rename any of the Inventory folders inside ServerStorage.
 - Then the setup system will break.
 
-Setting up project:
+#Setting up project:
 - Open the .rblx file that you can download here - done!
 If you already have a place you want the inventory to be, follow this:
 - Copy the folder Inventory located inside ServerStorage - paste it in your project
@@ -17,7 +17,7 @@ If you already have a place you want the inventory to be, follow this:
 - Copy the 3 files located inside StarterGui(GuiUpdater,Buy,Inventory) - paste it in your project
 - Done!
 
-Creating items: 
+#Creating items: 
 - Go into your ServerStorage
 - Now go into Inventory folder
 - Open Items folder 
@@ -28,7 +28,7 @@ Creating items:
 - Insert a icon texture, under the Icon decal.
 - Done!
 
-Making Categories:
+#Making Categories:
 - Go into StarterGui
 - Go into Inventory
 - Open the Frame
