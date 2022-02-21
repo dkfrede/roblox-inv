@@ -5,15 +5,15 @@ Since, im not a professionel making Roblox scripts, or games, there is problems 
 If you find a problem, please contact me.
 
 Creating items: 
-> Go into your ServerStorage
-> Now go into Inventory folder
-> Open Items folder 
-> Copy and paste a already existing item folder
-> Open the new copied item folder
-> Insert a price under the Price IntValue
-> Insert the item's categori
-> Insert a icon texture, under the Icon decal.
-> Done!
+- Go into your ServerStorage
+- Now go into Inventory folder
+- Open Items folder 
+- Copy and paste a already existing item folder
+- Open the new copied item folder
+- Insert a price under the Price IntValue
+- Insert the item's categori
+- Insert a icon texture, under the Icon decal.
+- Done!
 
 Making Categories:
 > Go into StarterGui
