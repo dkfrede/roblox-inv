@@ -15,6 +15,7 @@ If you already have a place you want the inventory to be, follow this:
 - Copy the folder Inventory located inside ServerStorage - paste it in your project
 - Copy the folder Inventory located inside ServerScriptService - paste it in your project
 - Copy the 3 files located inside StarterGui(GuiUpdater,Buy,Inventory) - paste it in your project
+- Go inside ServerScriptService > Inventory > Module > Change the "leaderstatsCash" to the name of your leaderstats currency
 - Done!
 
 # Creating items: 
