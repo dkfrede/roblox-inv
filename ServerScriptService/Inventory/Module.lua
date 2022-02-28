@@ -2,6 +2,8 @@ local ServerStorage = game:GetService("ServerStorage")
 
 local Items = ServerStorage.Inventory:WaitForChild("Items")
 
+local leaderstatsCash = "Cash"
+
 local module = {}
 
 function module.AddInventory(player,item,amount,itemprice)
@@ -13,28 +15,22 @@ function module.AddInventory(player,item,amount,itemprice)
 					for i=1,amount do
 						price = price + itemprice
 					end
-					
-					if player.leaderstats.Cash.Value >= price then
-					
+					if player.leaderstats[leaderstatsCash].Value >= price then
 						local Item = Instance.new("IntValue",player.Inventory)
 						Item.Name = item
 						Item.Value = amount
-						
-						player.leaderstats.Cash.Value -= price
+						player.leaderstats[leaderstatsCash].Value -= price
 					else
 						print("error - player dont have the money to buy x"..amount.." "..item.." for $"..price.."")
-						
 					end
 				else
 					local price = 0
 					for i=1,amount do
 						price = price + itemprice
 					end
-
-					if player.leaderstats.Cash.Value >= price then
+					if player.leaderstats[leaderstatsCash].Value >= price then
 						player.Inventory:FindFirstChild(item).Value += amount
-						
-						player.leaderstats.Cash.Value -= price
+						player.leaderstats[leaderstatsCash].Value -= price
 					else
 						print("error - player dont have the money to buy x"..amount.." "..item.." for $"..price.."")
 					end
