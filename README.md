@@ -64,4 +64,6 @@ Module.ClearAllInventoryItems(player)
 # Have Inventory Item
 ```lua
 Module.HaveInventoryItem(player,item,amount)
+
+-- returns true if player has the inventory item & amount
 ```
