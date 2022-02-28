@@ -22,11 +22,6 @@ local function Added(player)
 			end
 		end
 	end
-	if Module.HaveInventoryItem(player,"Pensel",5) then
-		print("have items")
-	else
-		print("dont have item")
-	end
 end
 
 local function Removed(player)
