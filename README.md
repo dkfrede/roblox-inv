@@ -49,22 +49,22 @@ local Module = require(game:GetService("ServerScriptService"):WaitForChild("Inve
 
 # Add Inventory Item
 ```lua
-Module.AddInventory(player,item,amount,price)
+Module.AddInventory(%player object%,%string / item name%,%integer / amount%,%integer / price%)
 ```
 
 # Remove Inventory Item
 ```lua
-Module.RemoveInventory(player,item,amount)
+Module.RemoveInventory(%player object%,%string / item name%,%integer / amount%)
 ```
 
 # Clear Player Inventory
 ```lua
-Module.ClearAllInventoryItems(player)
+Module.ClearAllInventoryItems(%player object%)
 ```
 
 # Have Inventory Item
 ```lua
-Module.HaveInventoryItem(player,item,amount)
+Module.HaveInventoryItem(%player object%,%string / item name%,%integer / amount%)
 
 -- returns true if player has the inventory item & amount
 ```
