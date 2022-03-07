@@ -43,6 +43,7 @@ If you already have a place you want the inventory to be, follow this:
 
 Start by location our Module Script.
 Use this:
+__Raw__
 ```lua
 local Module = require(game:GetService("ServerScriptService"):WaitForChild("Inventory").Module)
 ```
