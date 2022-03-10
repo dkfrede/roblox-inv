@@ -43,29 +43,50 @@ If you already have a place you want the inventory to be, follow this:
 
 Start by location our Module Script.
 Use this:
-__Raw__
 ```lua
 local Module = require(game:GetService("ServerScriptService"):WaitForChild("Inventory").Module)
 ```
 
 # Add Inventory Item
+__Raw__:
 ```lua
 Module.AddInventory(%player object%,%string / item name%,%integer / amount%,%integer / price%)
 ```
+__Example__:
+```lua
+Module.AddInventory(player,"Pensel",5,50)
+```
 
 # Remove Inventory Item
+__Raw__:
 ```lua
 Module.RemoveInventory(%player object%,%string / item name%,%integer / amount%)
 ```
+__Example__:
+```lua
+Module.RemoveInventory(player,"Pensel",5)
+```
 
 # Clear Player Inventory
+__Raw__:
 ```lua
 Module.ClearAllInventoryItems(%player object%)
 ```
+__Example__:
+```lua
+Module.ClearAllInventoryItems(player)
+```
 
 # Have Inventory Item
+__Raw__:
 ```lua
 Module.HaveInventoryItem(%player object%,%string / item name%,%integer / amount%)
 
 -- returns true if player has the inventory item & amount
+```
+__Example__:
+```lua
+if Module.HaveInventoryItem(player,"Pensel",5) then
+   print("Have 5 pensels")
+end
 ```
