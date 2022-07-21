@@ -87,6 +87,6 @@ Module.HaveInventoryItem(%player object%,%string / item name%,%integer / amount%
 __Example__:
 ```lua
 if Module.HaveInventoryItem(player,"Pensel",5) then
-   print("Have 5 pensels")
+   print("Has all the pensels.")
 end
 ```
